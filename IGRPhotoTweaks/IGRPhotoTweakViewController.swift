@@ -82,7 +82,7 @@ open class IGRPhotoTweakViewController: UIViewController {
     }
     
     fileprivate func setupSubviews() {
-        self.view.sendSubviewToBack(self.photoView)
+        self.view.sendSubview(toBack: self.photoView)
     }
     
     open func setupThemes() {
